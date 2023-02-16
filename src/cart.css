@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cartui{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#shopcart{
+    background-image: url(https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/02/banner-10-min.png);
+    width: 98%;
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+#title span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+#title span button{
+    border: none;
+    background-color: transparent;
+    color:#3bb77e;
+}
+#title span button:hover{
+    color: gold;
+}
+#btncont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+}
+#btncont button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: #3bb77e;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#btncont button:hover{
+    color: gold;
+}
+#carthead{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 90%;
+}
+#tablehead{
+    background-color: #F4F6FA;
+    height: 10vh;
+    border-radius: 15px;
+}
+#cu{
+    width: 90%;
+    background-color: #F4F6FA;
+    margin: 2rem;
+    height: 10vh;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 2rem;
+}
+#coupup{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-top: 1.5px solid rgb(221, 221, 221);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(227, 227, 227);
+}
+#coupup button
+{
+    background-color: #3bb77e;
+    border: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#coupup input{
+    height: 3.1rem;
+    width: 60%;
+    padding-left: 1rem;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4px;
+}
+#coup{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#totals{
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content:right;
+}
+#totalsdiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+#totalsdiv button{
+    width: 45%;
+    background-color: #3bb77e;
+    border: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+#totalsdiv table td{
+    border: 1.5px solid rgb(223, 222, 222);
+    padding: 1rem;
+}
+#totalsdiv table{
+    margin-top: 2rem;
+}
